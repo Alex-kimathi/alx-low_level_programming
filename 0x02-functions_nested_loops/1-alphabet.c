@@ -7,9 +7,8 @@
   *
   * Return: 1 success or 0 fail
   */
-void print_alphabet(void);
 
-int main(void)
+void print_alphabet(void)
 {
 	int i;
 
