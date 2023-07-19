@@ -1,20 +1,27 @@
 #include "main.h"
 /**
- * _islower - function
+ * print_alphabet_x10 - function
  *
  * @c: The character to evaluate
  *
  * Return: Get 1 if c is uppercase,
  * get 0 otherwise
  */
-int _islower(int c)
+
+void print_alphabet_x10(void)
 {
-	if (c >= 97 && c <= 122)
+
+	char i;
+	int n = 1;
+
+	while (n <= 10)
 	{
-		return (1);
-	}
-	else
-	{
-		return (0);
+
+		for (i = 'a'; i <= 'z'; i++)
+		{
+			_putchar(i);
+		}
+		_putchar('\n');
+		n++;
 	}
 }
