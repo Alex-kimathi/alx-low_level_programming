@@ -2,21 +2,21 @@
 /**
   * print_sign - prints sign of a number
   *
-  * @c: number to be checked
+  * @n: number to be checked
   *
   * Return: 1 if +ve, 0 if 0 otherwise -ve 1
   */
 
-int print_sign(int c)
+int print_sign(int n)
 {
-	if (c >= 1)
+	if (n >= 1)
 
 	{
 
 		_putchar('+');
 		return (1);
 	}
-	else if (c == 0)
+	else if (n == 0)
 	{
 		_puthcar('0')
 		return (0);
