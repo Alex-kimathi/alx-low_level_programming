@@ -2,10 +2,7 @@
 /**
  * print_alphabet_x10 - function
  *
- * @c: The character to evaluate
- *
- * Return: Get 1 if c is uppercase,
- * get 0 otherwise
+ * Return: 0 success
  */
 
 void print_alphabet_x10(void)
