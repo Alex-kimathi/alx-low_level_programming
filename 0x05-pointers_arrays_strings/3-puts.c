@@ -6,7 +6,7 @@
   * Return: 0 succes
   */
 
-voit _puts(char *str)
+void _puts(char *str)
 {
 	while (*str)
 	{
