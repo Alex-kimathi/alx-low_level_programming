@@ -12,6 +12,7 @@ int string_length(char *s);
 int is_palindrome(char *s)
 {
 	int len = string_length(s);
+
 	return (check_palindrome(s, 0, len - 1));
 }
 
@@ -44,4 +45,5 @@ int check_palindrome(char *s, int start, int end)
 	if (s[start] != s[end])
 		return (0);
 	return (check_palindrome(s, start + 1, end - 1));
+
 }
