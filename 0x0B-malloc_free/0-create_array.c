@@ -21,7 +21,7 @@ char *create_array(unsigned int size, char c)
 		length++;
 		ptraay[length] = c;
 	}
-	if (ptraay == )
+	if (ptraay == 0)
 		return (NULL);
 
 
