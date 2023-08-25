@@ -1,12 +1,16 @@
 #include "lists.h"
+#include <stdio.h>
+
 /**
   * print_list - prints all elements of list
+  * @h: parameter to test
   *
   * Return: null when str is 0
   */
+
 size_t print_list(const list_t *h)
 {
-	size_t sta;
+	size_t sta = 0;
 
 	while (h)
 	{
@@ -19,5 +23,5 @@ size_t print_list(const list_t *h)
 		sta++;
 	}
 
-	return(sta);
+	return (sta);
 }
