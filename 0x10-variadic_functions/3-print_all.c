@@ -24,8 +24,10 @@ void print_all(const char * const format, ...)
 				break;
 			case 'i':
 				printf("%s%d", str2, va_arg(arg_values, int));
+				break;
 			case 'f':
 				printf("%s%f", str2, va_arg(arg_values, double));
+				break;
 			case 's':
 				printf("%s%s", str2, str1);
 				if (!str1)
