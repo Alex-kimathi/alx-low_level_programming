@@ -32,7 +32,7 @@ void print_all(const char * const format, ...)
 				printf("%s%s", str2, str1);
 				if (!str1)
 					str1 = "(nil)";
-				printf("%s%s", str1, str2);
+				printf("%s%s", str2, str1);
 				break;
 			default:
 				i++;
