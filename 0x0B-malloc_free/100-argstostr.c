@@ -29,7 +29,7 @@ char *argstostr(int ac, char **av)
 		m++;
 	}
 	parray = malloc((sizeof(char) * num1) + 1);
-	if (parry == NULL)
+	if (parray == NULL)
 		return (NULL);
 	m = 0;
 	while (m < av)
