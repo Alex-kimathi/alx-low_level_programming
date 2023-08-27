@@ -11,39 +11,35 @@ char *argstostr(int ac, char **av)
 	int m, n, o, num1;
 	char *parray;
 
-	num1 = 0;
-	o = 0;
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
-	m = 0;
-	while (m < ac)
+	num1 = 0;
+	for (m = 0; m < ac; m++)
 	{
-		n = 0;
-		while (av[m][n])
-		{
+		for (n = 0; av[m][n]; n++)
 			num1++;
-			n++;
-		}
 		num1++;
-		m++;
 	}
+
+
 	parray = malloc((sizeof(char) * num1) + 1);
 	if (parray == NULL)
 		return (NULL);
-	m = 0;
-	while (m < ac)
+
+	0 = 0;
+	for (m = 0; m < ac; m++)
 	{
-	while (av[m][n])
-	{
-		parray[o] = av[m][n];
-		n++;
-		o++;
-	}
+		for (n = 0; av[m][n]; n++)
+		{
+			parray[o] = av[m][n];
+			o++;
+		}
+
 	parray[o] = '\n';
 	o++;
-	m++;
 	}
+
 	parray[o] = '\0';
 	return (parray);
 }
