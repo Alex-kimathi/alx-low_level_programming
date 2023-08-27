@@ -14,6 +14,7 @@ char *argstostr(int ac, char **av)
 	if (ac == 0 || av == NULL)
 		return (NULL);
 
+
 	num1 = 0;
 	for (m = 0; m < ac; m++)
 	{
@@ -27,7 +28,7 @@ char *argstostr(int ac, char **av)
 	if (parray == NULL)
 		return (NULL);
 
-	0 = 0;
+	o = 0;
 	for (m = 0; m < ac; m++)
 	{
 		for (n = 0; av[m][n]; n++)
