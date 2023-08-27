@@ -32,7 +32,7 @@ char *argstostr(int ac, char **av)
 	if (parray == NULL)
 		return (NULL);
 	m = 0;
-	while (m < av)
+	while (m < ac)
 	{
 	while (av[m][n])
 	{
