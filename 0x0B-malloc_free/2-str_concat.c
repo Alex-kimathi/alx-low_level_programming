@@ -43,6 +43,6 @@ char *str_concat(char *s1, char *s2)
 			k++;
 		}
 		s3[i] = '\0';
-		return (s3);
 	}
+	return (s3);
 }
