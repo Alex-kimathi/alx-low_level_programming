@@ -4,7 +4,7 @@
 /**
   * init_dog - my sruct
   * @d: name of char type
-  * age: age of the dtruct
+  * @age: age of the dtruct
   * @name: float type
   * @owner: char pointer
   *
