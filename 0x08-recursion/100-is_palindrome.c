@@ -4,11 +4,11 @@ int check_palindrome(char *s, int start, int end);
 int string_length(char *s);
 
 /**
-   * is_palindrome - checks if a string is a palindrome
-    * @s: string to check
-     *
-      * Return: 1 if it is a palindrome, 0 otherwise
-       */
+ * is_palindrome - checks if a string is a palindrome
+ * @s: string to check
+ *
+ * Return: 1 if it is a palindrome, 0 otherwise
+ */
 int is_palindrome(char *s)
 {
 	int len = string_length(s);
