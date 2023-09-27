@@ -17,8 +17,6 @@ int is_prime_number(int n)
 
 int is_prime_number_recursive(int n, int i)
 {
-	int i;
-
 	if (n <= 1)
 	{
 		return (0);
