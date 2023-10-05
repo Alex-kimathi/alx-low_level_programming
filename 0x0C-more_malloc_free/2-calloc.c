@@ -1,4 +1,6 @@
 #include "main.h"
+#include <stdlib.h>
+#include <string.h>
 /**
   * _calloc - allocates memory for an array and sets memory to zero
   * @nmemb: number of elements in the array
@@ -10,12 +12,12 @@ void *_calloc(unsigned int nmemb, unsigned int size)
 	void *ptr;
 	unsigned int total_size;
 
-	if (nmeb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
 
-	total_zize == nmem * size;
+	total_size = nmemb * size;
 
 	ptr = malloc(total_size);
 
