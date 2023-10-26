@@ -10,5 +10,5 @@ int get_endianness(void)
 	unsigned int num = 1;
 	char *endiancheck = (char *)&num;
 
-	return (*endianchek == 1);
+	return (*endiancheck == 1);
 }
